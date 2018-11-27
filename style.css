@@ -1,0 +1,379 @@
+#logo img{
+    text-align: left;
+    width:140px;
+    height: 17px;
+}
+
+#logo {
+  margin:auto 0 auto 0;
+}
+#navigation{
+    text-align: right;
+}
+
+.menu a {
+    font-size:12px;
+    text-align: right;
+    cursor: pointer;
+    color: #020e2c;
+    background: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-family: Segoe UI;
+    padding: 10px 40px;
+    }
+#join{
+    padding: 10px 40px;
+    border: 2px solid #020e2c;
+    color: #020e2c;
+    background: white;
+    border-radius: 300px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-family: Segoe UI;
+}
+#join:hover{
+    color: white;
+    background: #020e2c;
+}
+.centered {
+    width: 55%;
+    height: 293px;
+    background: url(https://static1.squarespace.com/static/596a8dbb440243ae7ebc0eff/t/5a2ddd828165f5d274370e65/1533171567435/goodsell.png?format=750w);
+    margin: 0 auto;
+    text-align: center;
+}
+.big_text {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    padding: 35px 150px;
+    margin: 0;
+}
+.centered p{
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.centered button{
+    background: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 300px;
+    padding: 10px 25px;
+    border: none;
+}
+.centered button:hover{
+    opacity: 0.8;
+}
+
+
+/* added */
+
+header {
+  padding:1% 1%;
+  display:flex;
+  background:white;
+  width:100%;
+}
+
+
+#navigation {
+  margin-left:auto;
+  margin-right:3%;
+  justify-content:flex-end;
+}
+
+.nav-btn {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.cover{
+  width:100%;
+  height:150px;
+  background-image:url("https://image.ibb.co/eA1z0A/first.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.description {
+  text-align:center;
+  font-size:20px;
+  padding:7% 20% 7% 20%;
+  font-family:Arial;
+  font-weight:100;
+}
+body {
+  margin:0px;
+}
+
+
+
+.quote {
+    width: 55%;
+    height: 293px;
+    background: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.quote span{
+  display: block;
+    margin-block-start: 25px;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40p  
+}
+.quote h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    text-align: center;
+    color:black;
+    margin-top: 25px;
+    padding: 35px 64px;
+    margin: 0;
+}
+.quote p{
+    font-size: 13px;
+    color:rgba(26,26,26,.7);
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 25px;
+    opacity: .5;
+    text-align: center;
+}
+.block{
+    text-align: center;
+    width: 55%;
+    height: 293px;
+    background: none;
+    margin: 0 auto;
+}
+.block #hp{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 0px;
+    text-transform: none;
+    line-height: 1.2em;
+    display: block;
+    color:black;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.picture{
+    text-align: center;
+    line-height: 0;
+}
+.picture img{
+    margin: -120px auto;
+    width: 60%;
+    height: 60%;
+}
+.content_block{
+    text-align: center;
+    line-height: 0;
+    padding: 106px;
+}
+.content_block h1{
+     color: black;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 28px;
+     letter-spacing: 0px;
+     text-transform: none;
+     line-height: 1.2em;
+     display: block;
+     margin-block-start: 0.67em;
+     margin-block-end: 0.67em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+ .hiring{
+     text-align: center;
+     display: block;
+     margin-top: -51px;
+     text-decoration: none;
+ }
+ .hiring a{
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #272727;
+    border-color: #272727;
+    padding: 25px;
+ }
+ .hiring a:hover{
+     cursor: pointer;
+     opacity: 0.8;
+ }
+ .blog{
+     text-align: center;
+     display: block;
+     padding: 25px;
+ }
+ .blog h3{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+ }
+ .blog #blog_word a{
+ color: #3d9991;
+ text-decoration: none;}
+.blog h3 a{
+    color: black;
+    text-decoration: none;  
+}
+footer {
+     display: block;
+     width:100%; 
+     height: 100%;
+     background-color: black;
+     color: rgba(255,255,255,.75);
+   }
+
+footer .main_footer{
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    padding:2% 4% 4% 4%;
+}
+
+
+.newsletter {
+    margin-top:2%;
+    text-align:center;
+    padding:5%;
+    background: #7d9bd9;
+    display: block;
+    font-size: 15px;
+    color: white;
+}
+
+
+html ,body {
+    margin:0;
+    overflow-x: hidden;
+}
+
+#email-input {
+    height: 30px;
+}
+
+#signup {
+    background-color: #020e2c;
+    font-size:10px;
+    border-radius: 20px;
+    padding:10px 20px 10px 20px;
+    color:white;
+    border:0px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+/* Index 2 styles*/
+.row{
+  margin-left:15%;
+  vertical-align: top;
+
+}
+.first_row{
+  vertical-align: inherit;
+  width:220px;
+  height: 100%;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+  color: #3d9991;
+  text-decoration: none;
+  text-align:center;
+
+}
+.first_row img{
+margin-top:auto;
+ width: 225px;
+ height: 225px;
+}
+.first_row a{
+  color: #3d9991;
+  text-decoration: none;
+
+}
+
+
+h1, h2, h3, h4 {
+    text-align:center;
+}
+
+h1{
+    text-align: center;
+    color: rgba(26,26,26,.7);
+}
+
+/*index 3 styles*/
+.row_team{
+    text-align:center;
+}
+.our_team{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: left;
+    color: rgba(26,26,26,.7);
+}
+.our_team img{
+   max-width: 250px;
+}
+.join_us{
+width: 20px;
+}
+.container{
+    height: 2000px;
+}
+
+table{
+    width:80%;
+    margin:10% 20%;
+
+
+}
+.first_column {
+    width:70%;
+}
+.first_column h3 {
+    text-align: left;
+}
+
+.first_column a {
+    color:black;
+}
